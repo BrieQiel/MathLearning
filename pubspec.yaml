@@ -1,0 +1,54 @@
+name: mathlearning
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.3 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  splashscreen:
+  audioplayers: ^3.0.1
+  awesome_dialog: ^3.0.2
+  flutter_swiper: ^1.1.6
+  smooth_page_indicator: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  fonts:
+    - family: Arco
+      fonts:
+        - asset: assets/fonts/ARCO.otf
+
+    - family: Mahgin
+      fonts:
+        - asset: assets/fonts/Mahgin.otf
+
+    - family: Rainbow
+      fonts:
+        - asset: assets/fonts/Rainbow Season.otf
+
+  assets:
+    - assets/sounds/
+    - assets/fonts/
+    - assets/images/
+    - assets/images/quiz/
+    - assets/images/lesson/
+    - assets/images/lesson/counting/
+    - assets/images/lesson/adding/
+    - assets/images/lesson/subtracting/
+
+  uses-material-design: true
+
+
